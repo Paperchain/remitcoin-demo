@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RemitCoin Dapp Sender Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img alt="RemitCoin" src="https://storage.googleapis.com/remitcoin-demo/logo-remitcoin-01.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li class="active"><a href="/index.html">Project Manager<span class="sr-only">(current)</span></a></li>
+        <li><a href="/sender.html">Service Provider</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-7">
+  <div><img src="https://storage.googleapis.com/remitcoin-demo/logo-remitcoin-01.png" style="max-width:350px;"></div>
+  <div><h2>Remittance Dapp</h2></div>
+  <h3>Confirm delivery of diligence documents.<br/> You have <span class="black"><span id="balance"></span> RMC</span> available in your project funds.</h3>
+
+  <br>
+  <h2>Confirm receipt</h2>
+  <br><label for="receiver">Client ID:</label>
+  <div class="input-group">
+    <input type="text" class="form-control" id="receiver" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+    <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="send" onclick="App.sendCoin()">Confirm</button>
+      </span>
+  </div>
+  <br><br>
+  <span id="status"></span>
+  <br><br>
+  <span class="hint"><strong>Notice:</strong> confirmation of receipt will release 500 RMC from the project funds.<br><strong>Hint:</strong> open the browser developer console to view any errors and warnings.</span>
+</div>
+<div class="col-sm-5">
+</div>
+</div>
+</div>
+<footer class="footer navbar-fixed-bottom">
+      <div class="container">
+        <p class="text-muted">© Five Twenty Digital. All rights reserved</p>
+      </div>
+    </footer>
+</body>
+</html>

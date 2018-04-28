@@ -1,0 +1,58 @@
+body {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
+  font-family: "Lato", "Open Sans", sans-serif;
+  font-weight: 300;
+  color:#384047;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+h1, h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #333F48;
+}
+
+h2 {
+  color: #333F48;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 300;
+  color: #384047;
+  font-size: 24px;
+}
+
+.black {
+  color: black;
+  font-weight: 500;
+}
+
+#balance {
+  color: black;
+  font-weight: 500;
+}
+
+.hint {
+  color: #666;
+}

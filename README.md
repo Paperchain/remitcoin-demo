@@ -18,7 +18,7 @@
 * Install Homebrew
 * Install NodeJS & NPM
 * Install Ginache
-* Clone the repo `git clone git@bitbucket.org:paperchain/remitcoin-demo.git`
+* Clone the repo `git clone https://pxcxn@bitbucket.org/paperchain/remitcoin-demo.git`
 * Go to root directory and run `npm install`
 * Run `truffle compile` to compile the contracts
 * Run `truffle test` to test the contracts
